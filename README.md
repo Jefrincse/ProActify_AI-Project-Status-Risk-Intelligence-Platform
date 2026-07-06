@@ -1,8 +1,8 @@
-# 🚀 ProjectIQ AI – Software Project Risk & Status Intelligence Platform
+# 🚀 ProActify AI – Software Project Risk & Status Intelligence Platform
 
 ## 📌 Overview
 
-ProjectIQ AI is an intelligent project analytics platform that helps organizations monitor project health, identify potential risks, and analyze project performance using AI and Machine Learning.
+ProActify AI is an intelligent project analytics platform that helps organizations monitor project health, identify potential risks, and analyze project performance using AI and Machine Learning.
 
 The platform uses historical software project data collected from project management tools to generate meaningful insights that support better project planning and decision-making.
 
