@@ -269,22 +269,6 @@ Add screenshots of:
 
 ---
 
-# 👨‍💻 Team Members
-
-### Project Lead
-
-* **Jefrin Raj**
-
-### Team Members
-
-* Agastiya Jenifer
-* Sujan
-* Mohammad Arshath
-* Saravanakumar
-* Kaviyarasan
-
----
-
 # 🎓 Academic Information
 
 **Project Title**
@@ -313,8 +297,8 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 **Jefrin Raj**
 
-* GitHub: *Add your GitHub profile link here*
-* LinkedIn: *Add your LinkedIn profile link here*
+* GitHub: jefrincse
+* LinkedIn: jefrin-raj-a
 
 ---
 
