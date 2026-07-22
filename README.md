@@ -110,7 +110,7 @@ The following preprocessing techniques were applied:
 ### Visualization
 
 - Plotly
-- Power BI
+- Matplotlib
 
 ### Development Tools
 
