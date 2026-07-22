@@ -1,170 +1,271 @@
-# 🚀 ProActify AI - Project Status & Risk Intelligence Platform
+# 🚀 ProActify AI – Project Status & Risk Intelligence Platform
 
 ## 📌 Overview
-
-**ProActify AI** is an AI-powered Project Status & Risk Intelligence Platform designed to help organizations monitor project performance, identify potential risks, and make data-driven decisions. The platform combines project analytics, KPI tracking, and predictive insights to improve project success rates through interactive dashboards and intelligent risk analysis.
-
-The project provides real-time visibility into project progress, budget, timelines, team performance, and risk levels using Excel, Python, SQL, and Business Intelligence techniques.
+ProActify AI is an AI-powered Project Status & Risk Intelligence Platform designed to predict software project failure at an early stage using Machine Learning. The system analyzes historical project data, identifies potential risks, and provides interactive dashboards with actionable insights to help project managers make informed decisions.
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Objective
+The primary objective of this project is to improve software project success rates by:
 
-Many organizations still rely on manual spreadsheets and traditional reporting methods to monitor project performance. This often results in:
-
-* Delayed identification of project risks
-* Budget overruns
-* Missed project deadlines
-* Poor resource utilization
-* Lack of real-time project visibility
-* Inefficient decision-making
+- Predicting project risks before they become critical.
+- Providing real-time project health analysis.
+- Supporting better project planning and decision-making.
+- Optimizing resource allocation and project monitoring.
 
 ---
 
-## 💡 Solution
+## ❗ Problem Statement
+Many software projects fail due to:
 
-ProActify AI provides a centralized dashboard that enables project managers to:
+- Budget overruns
+- Missed deadlines
+- Frequent requirement changes
+- Poor project planning
+- Resource shortages
+- Increasing bug counts
+- Lack of early risk identification
 
-* Monitor project health in real time
-* Track project progress and completion
-* Identify high-risk projects
-* Analyze budget utilization
-* Evaluate resource allocation
-* Predict project delays and risks
-* Generate interactive reports for management
-
----
-
-# ✨ Features
-
-* 📊 Project Status Dashboard
-* ⚠️ Risk Intelligence Dashboard
-* 📈 KPI Monitoring
-* 💰 Budget Tracking
-* 👥 Resource Utilization Analysis
-* 📅 Timeline & Schedule Monitoring
-* 📉 Delay Prediction
-* 🤖 AI-Based Risk Analysis
-* 📄 Executive Reporting
-* 📌 Interactive Charts and Filters
+Traditional project monitoring methods rely on manual analysis, making it difficult to detect potential failures in advance. ProActify AI addresses this challenge using Machine Learning.
 
 ---
 
-# 📊 Dashboard KPIs
+## ✨ Features
 
-* Total Projects
-* Active Projects
-* Completed Projects
-* Delayed Projects
-* On Hold Projects
-* High-Risk Projects
-* Project Completion Rate
-* Budget Utilization
-* Average Risk Score
-* On-Time Delivery Rate
-* Resource Utilization
+- 🔍 Early Project Risk Prediction
+- 📊 Interactive Dashboard
+- 📈 Risk Score Analysis
+- 🤖 Machine Learning-based Prediction
+- 📋 Project Status Monitoring
+- 💡 Actionable Recommendations
+- 📉 Budget & Schedule Monitoring
+- 👥 Resource Utilization Analysis
 
 ---
 
-# 📈 Dashboard Visualizations
+## 🧠 Machine Learning Model
 
-* KPI Cards
-* Project Status Distribution
-* Risk Level Analysis
-* Monthly Project Progress
-* Budget vs Actual Cost
-* Department-wise Projects
-* Resource Allocation Analysis
-* Timeline (Gantt Style)
-* Top High-Risk Projects
-* Risk Heat Map
+Algorithm Used:
 
----
+- Random Forest Classifier
 
-# 🛠️ Technology Stack
+Why Random Forest?
 
-| Technology             | Purpose                     |
-| ---------------------- | --------------------------- |
-| Python                 | Data Processing & Analytics |
-| MySQL                  | Database Management         |
-| Microsoft Excel        | Dashboard Development       |
-| Power Query            | Data Transformation         |
-| Pivot Tables           | Data Analysis               |
-| Pivot Charts           | Visualization               |
-| Conditional Formatting | Risk Indicators             |
-| VBA (Optional)         | Dashboard Automation        |
-| Pandas                 | Data Cleaning               |
-| NumPy                  | Numerical Operations        |
-| Matplotlib             | Data Visualization          |
+- High prediction accuracy
+- Handles complex datasets
+- Reduces overfitting
+- Suitable for classification problems
 
 ---
 
-# 📂 Project Structure
+## 📂 Dataset
 
-```text
+The dataset contains historical software project information, including:
+
+- Project Budget
+- Project Duration
+- Team Size
+- Requirement Changes
+- Number of Bugs
+- Resource Availability
+- Risk Management Maturity
+- Control Maturity
+- Project Methodology
+- Project Phase
+- Priority Level
+- Project Status (Target)
+
+---
+
+## ⚙️ Data Preprocessing
+
+The following preprocessing techniques were applied:
+
+- Missing Value Imputation
+- Label Encoding
+- Min-Max Scaling
+- Data Cleaning
+- Feature Selection
+- Train-Test Split
+
+---
+
+## 🛠️ Technologies Used
+
+### Programming Language
+
+- Python
+
+### Libraries
+
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+
+### Frontend
+
+- Streamlit
+
+### Visualization
+
+- Plotly
+- Power BI
+
+### Development Tools
+
+- VS Code
+- Jupyter Notebook
+
+---
+
+## 📊 Dashboard Features
+
+The dashboard provides:
+
+- Total Projects
+- Successful Projects
+- Failed Projects
+- Success Rate
+- Failure Rate
+- High Risk Projects
+- Risk Distribution
+- Budget Analysis
+- Project Status Overview
+- Team Performance
+- Resource Availability
+- Project Phase Analysis
+
+---
+
+## 🔄 Project Workflow
+
+```
+Historical Project Data
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Preprocessing
+(Label Encoding + Scaling)
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Random Forest Model Training
+        │
+        ▼
+Risk Prediction
+        │
+        ▼
+Interactive Dashboard
+        │
+        ▼
+Project Risk Recommendations
+```
+
+---
+
+## 📁 Project Structure
+
+```
 ProActify-AI/
 │
-├── Dataset/
-│   ├── project_risk_dataset.xlsx
+├── data/
+│   ├── project_dataset.csv
 │
-├── Dashboard/
-│   ├── ProActify_AI_Dashboard.xlsx
+├── model/
+│   ├── random_forest_model.pkl
+│   ├── label_encoders.pkl
 │
-├── Python/
-│   ├── data_cleaning.py
-│   ├── risk_analysis.py
-│
-├── SQL/
-│   ├── project_database.sql
-│
-├── Images/
-│   ├── dashboard.png
-│
-├── Documentation/
-│   ├── Project_Report.pdf
-│   ├── Presentation.pptx
-│
+├── app.py
+├── train_model.py
+├── requirements.txt
 ├── README.md
 │
-└── LICENSE
+├── assets/
+│   ├── dashboard.png
+│   ├── architecture.png
+│
+└── notebooks/
+    └── model_training.ipynb
 ```
 
 ---
 
-# 🔄 Project Workflow
+## ▶️ Installation
 
-1. Collect project data
-2. Clean and preprocess the dataset
-3. Store data in MySQL
-4. Analyze project metrics
-5. Calculate KPIs
-6. Perform risk analysis
-7. Build Excel dashboard
-8. Generate insights and reports
+Clone the repository:
 
----
+```bash
+git clone https://github.com/yourusername/ProActify-AI.git
+```
 
-# 📷 Dashboard Preview
+Move into the project folder:
 
-> Add screenshots of your dashboard in the **Images** folder and display them here.
+```bash
+cd ProActify-AI
+```
 
-Example:
+Install dependencies:
 
-```markdown
-![Dashboard](Images/dashboard.png)
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
 ```
 
 ---
 
-# 📌 Future Enhancements
+## 📈 Expected Outcomes
 
-* AI-based project delay prediction
-* Machine Learning risk prediction model
-* Real-time cloud database integration
-* Web dashboard using Streamlit
-* Power BI integration
-* Email alerts for high-risk projects
-* Resource optimization recommendations
+- Early Risk Detection
+- Better Project Planning
+- Improved Decision Making
+- Efficient Resource Allocation
+- Higher Project Success Rate
+- Reduced Project Failure
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+- Home Page
+- Prediction Page
+- Dashboard
+- Risk Analysis
+- Recommendation Page
+
+---
+
+## 🔮 Future Enhancements
+
+- Real-time project monitoring
+- Cloud deployment
+- Team collaboration module
+- Email notifications
+- AI chatbot support
+- Jira integration
+- Advanced analytics dashboard
+
+---
+
+## 👨‍💻 Team Members
+
+- Jefrin Raj A.
+- Agastiya Jenifer
+- Sujan
+- Mohammad Arshath
+- Saravanakumar
+- Kaviyarasan
 
 ---
 
