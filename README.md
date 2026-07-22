@@ -234,17 +234,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-- Home Page
-- Prediction Page
-- Dashboard
-- Risk Analysis
-- Recommendation Page
-
----
 
 ## 🔮 Future Enhancements
 
@@ -297,8 +286,8 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 **Jefrin Raj**
 
-* GitHub: jefrincse
-* LinkedIn: jefrin-raj-a
+* GitHub: (https://github.com/Jefrincse)
+* LinkedIn: (https://www.linkedin.com/in/jefrin-raj-a-326962378?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ---
 
